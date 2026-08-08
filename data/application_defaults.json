@@ -1,0 +1,44 @@
+{
+  "demographics": {
+    "gender": "Male",
+    "race_ethnicity": "Prefer not to say",
+    "disability_status": "No, I do not have a disability",
+    "veteran_status": "I am not a protected veteran",
+    "lgbtq_identify": "Prefer not to say"
+  },
+  "compensation": {
+    "desired_salary_usd_annual": "45000",
+    "desired_salary_inr_annual": "600000",
+    "salary_flexible": true,
+    "salary_notes": "Open to discussion based on role, location, and total compensation. Recent B.E. graduate with internship experience.",
+    "expected_ctc_lpa": "6",
+    "hourly_rate_usd": "25",
+    "salary_preset": "balanced_intern"
+  },
+  "company_screening": {
+    "previously_employed_at_company": "No",
+    "relative_employed_at_company": "No",
+    "conflict_of_interest": "No",
+    "non_compete": "No",
+    "background_check_consent": "Yes",
+    "drug_test_consent": "Yes"
+  },
+  "availability": {
+    "start_date": "Immediate",
+    "notice_period_days": "0",
+    "willing_to_relocate": "Yes",
+    "willing_to_travel": "Yes",
+    "remote_preference": "Remote or hybrid preferred",
+    "work_hours_timezone": "IST (flexible for global teams)"
+  },
+  "work_authorization_answers": {
+    "requires_visa_sponsorship": "Yes",
+    "authorized_to_work_india": "Yes",
+    "authorized_to_work_us": "No",
+    "authorized_to_work_uk": "No",
+    "authorized_to_work_eu": "No",
+    "legally_authorized": "Yes, with future sponsorship required for US/UK/EU roles"
+  },
+  "how_did_you_hear": "LinkedIn",
+  "custom_answers": {}
+}
