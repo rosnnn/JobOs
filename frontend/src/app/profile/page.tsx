@@ -181,7 +181,7 @@ export default function ProfilePage() {
 
       {msg && <div className="alert alert-info">{msg}</div>}
 
-      <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+      <div className="grid">
         <div className="card">
           <h3>Name</h3>
           <p>{profile.full_name}</p>

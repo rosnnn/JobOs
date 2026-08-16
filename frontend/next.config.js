@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const backend = process.env.BACKEND_URL || "http://127.0.0.1:8000";
 const isDev = process.env.NODE_ENV !== "production";
+const backend = process.env.BACKEND_URL || (isDev ? "http://127.0.0.1:8000" : "http://api:8000");
 
 const nextConfig = {
   reactStrictMode: true,

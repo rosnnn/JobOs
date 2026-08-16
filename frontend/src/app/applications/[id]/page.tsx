@@ -196,7 +196,7 @@ export default function ApplicationDetailPage() {
         </div>
       )}
 
-      <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "1fr 1fr", marginTop: "1.5rem" }}>
+      <div className="document-grid">
         <div>
           <h2 style={{ fontSize: "1rem", marginBottom: "0.5rem" }}>Tailored resume</h2>
           <div className="pre-box">{resume ?? "No resume"}</div>

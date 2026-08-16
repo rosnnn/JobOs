@@ -1,7 +1,9 @@
 const API =
-  process.env.NEXT_PUBLIC_API_URL && process.env.NEXT_PUBLIC_API_URL !== "/api"
-    ? process.env.NEXT_PUBLIC_API_URL
-    : process.env.BACKEND_URL || "http://127.0.0.1:8000";
+  typeof window !== "undefined"
+    ? (process.env.NEXT_PUBLIC_API_URL || "/api")
+    : (process.env.BACKEND_URL || "http://127.0.0.1:8000");
+
+
 
 let liveSyncPromise: Promise<{
   jobs: Job[];
